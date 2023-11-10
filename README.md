@@ -36,13 +36,12 @@ Si deseas contribuir a este proyecto, por favor sigue las siguientes pautas de c
 A la hora de ejecutar el programa desconectas esas conexiones.
 
 ## Conexiones del ESPCAM al Convertidor 
-Convertidor         ESPCAM
-_____________________________
-   VCCIO              5v
-_____________________________
-    TXD               U0R
-_____________________________
-    R0D               U0T
-_____________________________
-    GND               GND
-______________________________
+________________________________________________
+    VCCIO del convertidor con los 5v del ESPCAM
+________________________________________________
+    TXD del convertidor con el U0R del ESPCAM
+________________________________________________
+    R0D del convertidor con el U0T del ESPCAM
+________________________________________________
+    GND del convertidor con el GND del ESPCAM
+________________________________________________
