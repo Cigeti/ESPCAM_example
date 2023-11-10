@@ -28,7 +28,7 @@ Proyecto ralizado para equipar a los estudiantes con conocimientos basicos para 
 - Partition scheme: Huge APP
 ## Contribución
 
-Si deseas contribuir a este proyecto, por favor sigue las siguientes pautas de contribución.
+Este proyecto ha sido posible gracias a la colaboración de Andrés Hernández Chaves e Ignacio Cordero Chinchilla durante la práctica supervisada del año 2023.
 
 ## Problemas o Sugerencias
 
