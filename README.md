@@ -1,27 +1,48 @@
-# Nombre del Proyecto
+# ESPCAM_example
 
-Descripción breve o resumen del proyecto.
+Proyecto ralizado para equipar a los estudiantes con conocimientos basicos para implementar y programar un ESPCAM para futuros proyectos.
 
-## Paso 1: Título del Paso 1
+## Paso 1: Instalacion de los paquetes para el ESP
 
-Descripción detallada del paso 1. Puedes incluir instrucciones, comandos o cualquier otra información relevante.
+- Abrir Arduino IDE
+- Ir a la parte de archivos 
+- Preferencias 
+- En la parte de URL se pega el siguiente link: https://dl.espressif.com/dl/package_esp32_index.json
+- Le damos aceptar 
 
-## Paso 2: Título del Paso 2
+## Paso 2: Descarga de la placa
+- Herramientas
+- Placa 
+- Gestor de tarjetas 
+- Buscar: esp32 
+- Descargar la que dice: ESP32(by espressif Systems)
 
-Descripción detallada del paso 2. Puedes incluir instrucciones, comandos o cualquier otra información relevante.
+## Paso 3: Eleccion de la placa
+- Herramientas 
+- Placa
+- ESP32 Arduino 
+- Elegir la placa que dice: ESP Wrover Module
 
-## Paso 3: Título del Paso 3
-
-Descripción detallada del paso 3. Puedes incluir instrucciones, comandos o cualquier otra información relevante.
-
+## Paso 4: Partition scheme
+- Herramientas
+- Partition scheme: Huge APP
 ## Contribución
 
 Si deseas contribuir a este proyecto, por favor sigue las siguientes pautas de contribución.
 
 ## Problemas o Sugerencias
 
-Si encuentras algún problema o tienes alguna sugerencia, por favor crea un problema en [enlace al repositorio de problemas](URL del repositorio de problemas).
+- Antes de subir la programacion debes desconectar la placa y conectar los pines IO0 con GND, despues conectas la placa y subes la programacion.
+A la hora de ejecutar el programa desconectas esas conexiones.
 
-## Licencia
-
-Este proyecto está bajo la licencia [Nombre de la Licencia](URL de la Licencia).
+## Conexiones del ESPCAM al Convertidor 
+Convertidor         ESPCAM
+_____________________________
+   VCCIO              5v
+_____________________________
+    TXD               U0R
+_____________________________
+    R0D               U0T
+_____________________________
+    GND               GND
+______________________________
