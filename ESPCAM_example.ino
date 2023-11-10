@@ -35,8 +35,8 @@
 // ===========================
 // Enter your WiFi credentials
 // ===========================
-const char* ssid = "IS_FabLab";
-const char* password = "Steam17$";
+const char* ssid = "Nombre_de_la_red";
+const char* password = "Contraseña";
 
 void startCameraServer();
 void setupLedFlash(int pin);
